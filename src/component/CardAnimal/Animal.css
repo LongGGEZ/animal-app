@@ -1,0 +1,16 @@
+.animal {
+    display: flex;
+    flex-direction: column;
+    width: calc(20% - 20px);
+    margin: 10px 0px 10px 20px;
+}
+
+.animal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.animal label {
+    text-align: center;
+}
